@@ -1,0 +1,9 @@
+3
+cat 34
+ca 12
+l 15
+minimalist 34
+min 50
+
+
+�выа12
