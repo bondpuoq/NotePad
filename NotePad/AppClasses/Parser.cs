@@ -21,8 +21,8 @@ namespace NotePad.AppClasses
             foreach (string s in lPairs)
             {
                 string[] str = s.Split(new[] { ' ' });
-                if (s.Split(new[] { ' ' }).Count() > 1)
-                    finalDict.Add(s.Split(new[] { ' ' })[0].ToString(), Convert.ToInt32(s.Split(new[] { ' ' }[1])));
+                if (str.Length > 1)
+                    finalDict.Add(str[0].ToString(), Convert.ToInt32(str[1]));
             }
             sr.Close();
         }
