@@ -12,17 +12,20 @@ namespace NotePad
         static void Main(string[] args)
         {
             Dict wordDict = new Dict();
-            int IterNum = Convert.ToInt32(Console.ReadLine());
-            wordDict.AddPair(IterNum);
-            for (int i=0; i < IterNum-1; i++)
+            int iterNum = Convert.ToInt32(Console.ReadLine());
+            wordDict.AddPair(iterNum);
+            for (int i=0; i < iterNum; i++)
             {
-                wordDict.AddPair(Console.ReadLine());
+                string somePhrase = Console.ReadLine();
+                wordDict.AddPair(somePhrase);
             }
             wordDict.WriteToFile("dict.txt");
             Parser pars = new Parser("dict.txt");
-            for (int i=0; i < Convert.ToInt32(Console.ReadLine()); i++)
+            int countIter = Convert.ToInt32(Console.ReadLine());
+            for (int i=0; i < countIter; i++)
             {
-                pars.getResults(Console.ReadLine());
+                string someWord = Console.ReadLine();
+                pars.getResults(someWord);
             }
             Console.ReadKey();
         }
