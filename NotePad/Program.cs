@@ -19,8 +19,9 @@ namespace NotePad
                 string somePhrase = Console.ReadLine();
                 wordDict.AddPair(somePhrase);
             }
-            wordDict.WriteToFile("dict.txt");
-            Parser pars = new Parser("dict.txt");
+            string filePath = "../../resources/dict.txt";
+            wordDict.WriteToFile(filePath);
+            Parser pars = new Parser(filePath);
             int countIter = Convert.ToInt32(Console.ReadLine());
             for (int i=0; i < countIter; i++)
             {
