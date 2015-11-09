@@ -1,6 +1,0 @@
-c:\users\bondpuoq\documents\visual studio 2015\Projects\NotePad\NotePad\bin\Debug\NotePad.exe.config
-c:\users\bondpuoq\documents\visual studio 2015\Projects\NotePad\NotePad\bin\Debug\NotePad.exe
-c:\users\bondpuoq\documents\visual studio 2015\Projects\NotePad\NotePad\bin\Debug\NotePad.pdb
-c:\users\bondpuoq\documents\visual studio 2015\Projects\NotePad\NotePad\obj\Debug\NotePad.csprojResolveAssemblyReference.cache
-c:\users\bondpuoq\documents\visual studio 2015\Projects\NotePad\NotePad\obj\Debug\NotePad.exe
-c:\users\bondpuoq\documents\visual studio 2015\Projects\NotePad\NotePad\obj\Debug\NotePad.pdb
